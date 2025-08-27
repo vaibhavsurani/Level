@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.polygon {
+    width: 100%;
+  height: 50px;
+  background-color: #ee5057;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
